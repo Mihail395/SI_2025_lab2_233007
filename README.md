@@ -1,10 +1,10 @@
 # SI_2025_lab2_233007
-**Михаил Димитровски , индекс 233007**
-**Control Flow Graph**
+### **Михаил Димитровски , индекс 233007**
+### **Control Flow Graph**
 ![cfg](https://github.com/user-attachments/assets/176c7879-fd16-4b97-9bae-5f78778ce2a4)
-**Цикломатска комплексност**
+### **Цикломатска комплексност**
 Цикломатската комплексност е 9, затоа што графот се состои од 8 региони + надворешниот , вкупно 9.
-**Тест случаи според критериумот Every statement**
+### **Тест случаи според критериумот Every statement**
 Test Case 1:
 Input: null, "1111-1111-1111-1111"  
 RuntimeException "allItems list can't be null!"
@@ -22,5 +22,5 @@ Item with discount > 0
 apply discounted price
 
 Минимални test cases = 5
-**Тест случаи според критериумот Multiple Condition**
+### **Тест случаи според критериумот Multiple Condition**
 За условот if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10) за да се покрие секоја можна комбинација потребни се 8 тест случаи ,а минимални случаи да се постигне критериумот се 3.
